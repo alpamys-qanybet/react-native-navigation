@@ -1,6 +1,6 @@
 package com.reactnativenavigation.bridge;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable; // import android.support.annotation.Nullable;;
 
 import com.facebook.react.bridge.Callback;
 import com.facebook.react.bridge.Promise;

@@ -5,8 +5,8 @@ import android.app.Application;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.annotation.Nullable;
-import android.support.v4.app.ActivityOptionsCompat;
+import androidx.annotation.Nullable; // import android.support.annotation.Nullable;;
+import androidx.core.app.ActivityOptionsCompat; // import android.support.v4.app.ActivityOptionsCompat;
 
 import com.facebook.react.ReactApplication;
 import com.facebook.react.ReactNativeHost;

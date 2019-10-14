@@ -4,8 +4,8 @@ import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.Nullable; // import android.support.annotation.Nullable;;
+import androidx.appcompat.app.AppCompatActivity; // import android.support.v7.app.AppCompatActivity;
 import android.widget.FrameLayout;
 
 import com.reactnativenavigation.R;
@@ -65,7 +65,7 @@ public class FragmentScreen extends Screen {
                 return;
             }
 
-            android.support.v4.app.Fragment supportFragment = tryGetSupportFragment();
+            androidx.fragment.app.Fragment supportFragment = tryGetSupportFragment();
             if (supportFragment != null) {
                 addSupportFragment(supportFragment);
                 return;
@@ -83,9 +83,9 @@ public class FragmentScreen extends Screen {
         transaction.commitAllowingStateLoss();
     }
 
-    private void addSupportFragment(android.support.v4.app.Fragment supportFragment) {
-        android.support.v4.app.FragmentManager fm = activity.getSupportFragmentManager();
-        android.support.v4.app.FragmentTransaction transaction = fm.beginTransaction();
+    private void addSupportFragment(androidx.fragment.app.Fragment supportFragment) {
+        androidx.fragment.app.FragmentManager fm = activity.getSupportFragmentManager();
+        androidx.fragment.app.FragmentTransaction transaction = fm.beginTransaction();
         transaction.add(R.id.fragment_screen_content, supportFragment);
         transaction.commitAllowingStateLoss();
     }
@@ -103,12 +103,12 @@ public class FragmentScreen extends Screen {
     }
 
     @Nullable
-    private android.support.v4.app.Fragment tryGetSupportFragment() throws ClassNotFoundException, IllegalAccessException, InvocationTargetException {
+    private androidx.fragment.app.Fragment tryGetSupportFragment() throws ClassNotFoundException, IllegalAccessException, InvocationTargetException {
         try {
             String className = screenParams.fragmentCreatorClassName;
             Class<?> fragmentCreatorClass = Class.forName(className);
             Method method = fragmentCreatorClass.getMethod(CONTRACT_GET_SUPPORT_FRAGMENT, Bundle.class);
-            return (android.support.v4.app.Fragment) method.invoke(null, screenParams.fragmentCreatorPassProps);
+            return (androidx.fragment.app.Fragment) method.invoke(null, screenParams.fragmentCreatorPassProps);
         } catch (NoSuchMethodException noSuchMethod) {
             return null;
         }

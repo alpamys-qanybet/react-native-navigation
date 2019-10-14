@@ -1,8 +1,8 @@
 package com.reactnativenavigation.views;
 
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v7.widget.ActionMenuView;
+import androidx.annotation.NonNull; // import android.support.annotation.NonNull;
+import androidx.annotation.Nullable; // import android.support.annotation.Nullable;;
+import androidx.appcompat.widget.ActionMenuView; // import android.support.v7.widget.ActionMenuView;
 import android.text.SpannableStringBuilder;
 import android.text.TextUtils;
 import android.view.Menu;

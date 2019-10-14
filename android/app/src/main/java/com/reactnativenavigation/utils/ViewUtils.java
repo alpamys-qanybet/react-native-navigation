@@ -6,7 +6,7 @@ import android.graphics.PorterDuff;
 import android.graphics.PorterDuffColorFilter;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable; // import android.support.annotation.Nullable;;
 import android.text.SpannableString;
 import android.text.Spanned;
 import android.text.SpannedString;

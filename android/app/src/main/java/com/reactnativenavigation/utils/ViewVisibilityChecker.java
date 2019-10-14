@@ -1,6 +1,6 @@
 package com.reactnativenavigation.utils;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable; // import android.support.annotation.Nullable;;
 import android.view.View;
 
 import com.reactnativenavigation.views.ContentView;

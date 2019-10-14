@@ -3,7 +3,7 @@ package com.reactnativenavigation.views.sharedElementTransition;
 import android.content.Context;
 import android.graphics.Rect;
 import android.os.Build;
-import android.support.annotation.Keep;
+import androidx.annotation.Keep; // import android.support.annotation.Keep;
 import android.text.SpannableString;
 import android.text.SpannedString;
 import android.view.View;

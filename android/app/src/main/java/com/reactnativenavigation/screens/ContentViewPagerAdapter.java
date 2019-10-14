@@ -1,7 +1,7 @@
 package com.reactnativenavigation.screens;
 
-import android.support.v4.view.PagerAdapter;
-import android.support.v4.view.ViewPager;
+import androidx.viewpager.widget.PagerAdapter; // import android.support.v4.view.PagerAdapter;
+import androidx.viewpager.widget.ViewPager; // import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.view.ViewGroup;
 

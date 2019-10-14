@@ -1,7 +1,7 @@
 package com.reactnativenavigation.params.parsers;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable; // import android.support.annotation.Nullable;;
 
 import com.reactnativenavigation.params.NavigationParams;
 import com.reactnativenavigation.params.SideMenuParams;

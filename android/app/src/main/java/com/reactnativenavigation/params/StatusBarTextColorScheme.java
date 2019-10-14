@@ -1,7 +1,7 @@
 package com.reactnativenavigation.params;
 
 import android.os.Build;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable; // import android.support.annotation.Nullable;;
 
 public enum StatusBarTextColorScheme {
     Light, Dark, Undefined;

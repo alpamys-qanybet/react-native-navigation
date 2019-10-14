@@ -1,6 +1,6 @@
 package com.reactnativenavigation.views.sharedElementTransition;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable; // import android.support.annotation.Nullable;;
 
 public class ControlPoint {
     public final float x;

@@ -1,7 +1,7 @@
 package com.reactnativenavigation.params;
 
 import android.animation.TimeInterpolator;
-import android.support.v4.view.animation.FastOutSlowInInterpolator;
+import androidx.interpolator.view.animation.FastOutSlowInInterpolator; // import android.support.v4.view.animation.FastOutSlowInInterpolator;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;

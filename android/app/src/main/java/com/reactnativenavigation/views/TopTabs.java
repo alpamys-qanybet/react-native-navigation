@@ -3,7 +3,7 @@ package com.reactnativenavigation.views;
 import android.content.Context;
 import android.content.res.ColorStateList;
 import android.graphics.Typeface;
-import android.support.design.widget.TabLayout;
+import com.google.android.material.tabs.TabLayout; // import android.support.design.widget.TabLayout;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;

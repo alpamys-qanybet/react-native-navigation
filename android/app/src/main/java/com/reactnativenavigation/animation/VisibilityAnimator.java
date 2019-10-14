@@ -3,8 +3,8 @@ package com.reactnativenavigation.animation;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.animation.ObjectAnimator;
-import android.support.annotation.Nullable;
-import android.support.v4.view.animation.LinearOutSlowInInterpolator;
+import androidx.annotation.Nullable; // import android.support.annotation.Nullable;;
+import androidx.interpolator.view.animation.LinearOutSlowInInterpolator; // import android.support.v4.view.animation.LinearOutSlowInInterpolator;
 import android.view.View;
 
 public class VisibilityAnimator {

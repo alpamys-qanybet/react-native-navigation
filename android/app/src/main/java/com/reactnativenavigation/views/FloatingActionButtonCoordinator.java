@@ -5,11 +5,11 @@ import android.animation.AnimatorListenerAdapter;
 import android.content.res.ColorStateList;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
-import android.support.annotation.FloatRange;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.design.widget.CoordinatorLayout;
-import android.support.design.widget.FloatingActionButton;
+import androidx.annotation.FloatRange; // import android.support.annotation.FloatRange;
+import androidx.annotation.NonNull; // import android.support.annotation.NonNull;
+import androidx.annotation.Nullable; // import android.support.annotation.Nullable;;
+import androidx.coordinatorlayout.widget.CoordinatorLayout; // import android.support.design.widget.CoordinatorLayout;
+import com.google.android.material.floatingactionbutton.FloatingActionButton; // import android.support.design.widget.FloatingActionButton;
 import android.view.Gravity;
 import android.view.View;
 

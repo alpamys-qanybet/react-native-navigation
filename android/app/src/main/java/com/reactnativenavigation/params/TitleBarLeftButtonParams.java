@@ -1,6 +1,6 @@
 package com.reactnativenavigation.params;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable; // import android.support.annotation.Nullable;;
 
 import com.balysv.materialmenu.MaterialMenuDrawable;
 

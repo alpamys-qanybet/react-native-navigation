@@ -2,7 +2,7 @@ package com.reactnativenavigation.params;
 
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.support.annotation.ColorInt;
+import androidx.annotation.ColorInt; // android.support.annotation.ColorInt;;
 import android.text.TextUtils;
 
 import com.reactnativenavigation.utils.TypefaceLoader;

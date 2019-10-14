@@ -2,7 +2,7 @@ package com.reactnativenavigation.params.parsers;
 
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.design.widget.Snackbar;
+import com.google.android.material.snackbar.Snackbar; // import android.support.design.widget.Snackbar;
 
 import com.reactnativenavigation.params.AppStyle;
 import com.reactnativenavigation.params.SnackbarParams;

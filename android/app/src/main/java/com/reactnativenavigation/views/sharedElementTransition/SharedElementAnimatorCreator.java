@@ -2,7 +2,7 @@ package com.reactnativenavigation.views.sharedElementTransition;
 
 import android.animation.Animator;
 import android.animation.ObjectAnimator;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull; // import android.support.annotation.NonNull;
 import android.view.View;
 
 import com.facebook.drawee.drawable.ScalingUtils;

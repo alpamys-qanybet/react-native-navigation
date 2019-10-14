@@ -1,6 +1,6 @@
 package com.reactnativenavigation.views;
 
-import android.support.v7.widget.ActionMenuView;
+import androidx.appcompat.widget.ActionMenuView; // import android.support.v7.widget.ActionMenuView;
 import android.view.Menu;
 import android.view.MenuItem;
 

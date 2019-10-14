@@ -1,7 +1,7 @@
 package com.reactnativenavigation.views.utils;
 
 import android.animation.TypeEvaluator;
-import android.support.v4.graphics.ColorUtils;
+import androidx.core.graphics.ColorUtils; // import android.support.v4.graphics.ColorUtils;
 
 public class LabColorEvaluator implements TypeEvaluator<double[]> {
     private final double[] color = new double[3];

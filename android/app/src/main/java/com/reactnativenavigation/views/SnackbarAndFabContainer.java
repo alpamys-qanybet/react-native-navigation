@@ -1,7 +1,7 @@
 package com.reactnativenavigation.views;
 
 import android.content.Context;
-import android.support.design.widget.CoordinatorLayout;
+import androidx.coordinatorlayout.widget.CoordinatorLayout; // import android.support.design.widget.CoordinatorLayout;
 
 import com.reactnativenavigation.events.Event;
 import com.reactnativenavigation.events.EventBus;

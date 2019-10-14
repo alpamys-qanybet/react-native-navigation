@@ -1,6 +1,6 @@
 package com.reactnativenavigation.layouts;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity; // import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
 import com.reactnativenavigation.params.ActivityParams;
