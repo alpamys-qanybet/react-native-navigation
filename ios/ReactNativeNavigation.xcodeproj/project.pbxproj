@@ -436,6 +436,26 @@
 		D8AFADC71BEE6F3F00A4592D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/DoubleConversion",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/FBLazyVector",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/FBReactNativeSpec",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/RCTRequired",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/RCTTypeSafety",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/React-Core",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/React-RCTBlob",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/React-RCTText",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/React-cxxreact",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/React-jsi",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/React-jsiexecutor",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/React-jsinspector",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/ReactCommon",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/Yoga",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/glog",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Private/React-Core",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ReactNativeNavigation;
 				SKIP_INSTALL = YES;
@@ -445,6 +465,26 @@
 		D8AFADC81BEE6F3F00A4592D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/DoubleConversion",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/FBLazyVector",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/FBReactNativeSpec",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/RCTRequired",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/RCTTypeSafety",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/React-Core",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/React-RCTBlob",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/React-RCTText",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/React-cxxreact",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/React-jsi",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/React-jsiexecutor",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/React-jsinspector",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/ReactCommon",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/Yoga",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/glog",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Private/React-Core",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ReactNativeNavigation;
 				SKIP_INSTALL = YES;
