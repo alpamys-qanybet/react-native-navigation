@@ -3,6 +3,8 @@
 
 and follow the instructions from old V1 [docs](https://github.com/wix/react-native-navigation/tree/v1/docs)
 
+<!--
+
 <h1 align="center">
   <img src="./logo.png"/><br>
   React Native Navigation
@@ -53,7 +55,7 @@ One of the major things missing from React Native core is fully featured native 
 If you're trying to deliver a user experience that's on par with the best native apps out there, you simply can't compromise on JS-based components trying to fake the real thing.
 
 For example, this package replaces the native [NavigatorIOS](https://facebook.github.io/react-native/docs/navigatorios.html) that has been [abandoned](https://facebook.github.io/react-native/docs/navigator-comparison.html) in favor of JS-based solutions that are easier to maintain. For more details see in-depth discussion [here](https://github.com/wix/react-native-controllers#why-do-we-need-this-package).
-
+-->
 
 ## License
 
