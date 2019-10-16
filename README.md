@@ -1,3 +1,7 @@
+## To make it work install from master:
+```yarn add alpamys-qanybet/react-native-navigation#master```
+
+and follow the instructions from old V1 [docs](https://github.com/wix/react-native-navigation/tree/v1/docs)
 
 <h1 align="center">
   <img src="./logo.png"/><br>
@@ -18,7 +22,7 @@ We are currently in late stages of development of [v2](https://github.com/wix/re
 
 <br><br>Latest stable version is `1.1.x` and is published to npm under tag `latest`.
 Version 1.1.483 supports react-native >= 0.48 up to react-native 0.56
-Version 1.1.484 supports react-native >= 0.57 
+Version 1.1.484 supports react-native >= 0.57
 >⚠️Since we're focusing our efforts on v2, we are not accepting pull requests for v1 and are not addresing issues for v1.
 
 ### tl;dr
@@ -56,4 +60,3 @@ For example, this package replaces the native [NavigatorIOS](https://facebook.gi
 The MIT License.
 
 See [LICENSE](LICENSE)
-
