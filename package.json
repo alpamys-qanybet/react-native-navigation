@@ -9,13 +9,13 @@
     "registry": "https://registry.npmjs.org/"
   },
   "bugs": {
-    "url": "https://github.com/wix/react-native-navigation/issues"
+    "url": "https://github.com/alpamys-qanybet/react-native-navigation/issues"
   },
-  "homepage": "https://github.com/wix/react-native-navigation",
-  "readme": "https://github.com/wix/react-native-navigation#readme",
+  "homepage": "https://github.com/alpamys-qanybet/react-native-navigation",
+  "readme": "https://github.com/alpamys-qanybet/react-native-navigation#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wix/react-native-navigation.git"
+    "url": "https://github.com/alpamys-qanybet/react-native-navigation.git"
   },
   "main": "src/index.js",
   "scripts": {
