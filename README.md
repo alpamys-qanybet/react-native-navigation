@@ -3,6 +3,20 @@
 
 and follow the instructions from old V1 [docs](https://github.com/wix/react-native-navigation/tree/v1/docs)
 
+## Important!
+you should change your ```package.json```:
+
+```
+"dependencies": {
+  ...
+  "react-native-navigation": "https://github.com/alpamys-qanybet/react-native-navigation/tarball/master",
+},
+
+```
+
+or use specific commit
+more about it [here](http://debuggable.com/posts/how-to-fork-patch-npm-modules:4e2eb9f3-e584-44be-b1a9-3db7cbdd56cb)
+
 <h1 align="center">
   <img src="./logo.png"/><br>
   React Native Navigation
